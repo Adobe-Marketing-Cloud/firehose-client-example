@@ -12,8 +12,8 @@ public class FirehoseClientDriver {
     public static void main(String[] args) {
         final HttpFirehoseClient client = new HttpFirehoseClient();
 
-        String streamUrl = args[0]; // e.g. hps://firehose1.omniture.com/api/1/stream/<stream name>
-        String accessToken = args[1]; // usually a very large base64 encoded string
+        String streamUrl = args[0]; // e.g. https://firehose1.omniture.com/api/1/stream/<stream name>
+        String accessToken = args[1]; // usually a very large base64-encoded string
 
         client.setStreamUrl(streamUrl);
         client.setAccessToken(accessToken);
