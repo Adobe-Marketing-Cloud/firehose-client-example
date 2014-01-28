@@ -1,4 +1,14 @@
-firehose-client-example
-=======================
+# Firehose Client Example #
+## Requirements ##
+ * Java 6
+ * Maven
 
-Basic firehose client example in Java
+## Building it ##
+1. git clone https://github.com/Adobe-Marketing-Cloud/firehose-client-example.git
+2. cd firehose-client-example
+3. mvn package
+
+## Using it ##
+```
+java java -cp target/firehose-client-example-1.0-SNAPSHOT.jar com.adobe.example.firehose.FirehoseClientDriver <streamURL> <accessToken>
+````
