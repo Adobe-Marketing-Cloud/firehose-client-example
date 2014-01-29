@@ -10,5 +10,5 @@
 
 ## Using it ##
 ```
-java java -cp target/firehose-client-example-1.0-SNAPSHOT.jar com.adobe.example.firehose.FirehoseClientDriver <streamURL> <accessToken>
+java -cp target/firehose-client-example-1.0-SNAPSHOT.jar com.adobe.example.firehose.FirehoseClientDriver <streamURL> <accessToken>
 ````
